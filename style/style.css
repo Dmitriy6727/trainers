@@ -51,3 +51,6 @@ header{
 .right_block{
     margin-top: 9px;
 }
+.head{
+    background-color: rgba(0, 0, 0, 0.65);
+}
