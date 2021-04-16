@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1170px;
+    padding: 25px 0px;
+}
+.search{
+    width: 209px;
+    height: 42px;
+    background-color: #ebebeb;
+    padding: 13px 18px;
+    font-size: 13px;
+    color: #999999;
+    text-transform: uppercase;
+}
+.online_store{
+    padding: 13px 11px;
+    background-color: #252525;
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 28px;
+}
+.login{
+    padding: 13px 45px;
+    background-color: #464646;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 28px;
+}
+.sign_up{
+    padding: 13px 16px;
+    background-color: #fa090a;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 28px;
+}
+.right_block{
+    margin-top: 9px;
+}
