@@ -1,44 +1,40 @@
-@font-face{
+@font-face {
     font-family: 'Metropolis';
     src: url('../fonts/Metropolis-Regular.eot');
-    src: url('../fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Metropolis-Regular.woff2') format('woff2'),
-        url('../fonts/Metropolis-Regular.woff') format('woff'),
-        url('../fonts/Metropolis-Regular.ttf') format('truetype'),
-        url('../fonts/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+    src: url('../fonts/Metropolis-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Metropolis-Regular.woff2') format('woff2'), url('../fonts/Metropolis-Regular.woff') format('woff'), url('../fonts/Metropolis-Regular.ttf') format('truetype'), url('../fonts/Metropolis-Regular.svg#Metropolis-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Myriad Pro';
     src: url('../fonts/MyriadPro-Regular.eot');
-    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
-        url('../fonts/MyriadPro-Regular.woff') format('woff'),
-        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
-        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/MyriadPro-Regular.woff2') format('woff2'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-*{
 
+* {
     margin: 0;
     padding: 0;
 }
-.container{
+
+.container {
     padding: 25px 27px;
     background-color: rgba(0, 0, 0, 0.65);
 }
-.header_top{
+
+.header_top {
     max-width: 1170px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     border-bottom: solid 2px #464646;
 }
-.online_store{
+
+.online_store {
     font-size: 11px;
     background-color: #252525;
     color: #fff;
@@ -53,7 +49,8 @@
     margin-left: 25px;
     font-family: 'Metropolis';
 }
-.log_in{
+
+.log_in {
     font-size: 11px;
     background-color: #464646;
     width: 170px;
@@ -68,7 +65,8 @@
     text-align: center;
     font-family: 'Metropolis';
 }
-.sign_up{
+
+.sign_up {
     font-size: 11px;
     background-color: #fa090a;
     color: #fff;
@@ -83,7 +81,8 @@
     margin-top: 9px;
     font-family: 'Metropolis';
 }
-.search{
+
+.search {
     width: 209px;
     height: 42px;
     font-size: 11px;
@@ -96,27 +95,33 @@
     margin-left: 25px;
     font-family: 'Metropolis';
 }
-.fas{
+
+.fas {
     margin-right: 10px;
 }
-.far{
+
+.far {
     margin-right: 10px;
 }
-.header_bottom{
+
+.header_bottom {
     max-width: 1170px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding-top: 22px;
 }
-.menu{
+
+.menu {
     display: flex;
     justify-content: space-between;
 }
-.punkt{
+
+.punkt {
     list-style-type: none;
 }
-.punkt a{
+
+.punkt a {
     font-size: 17px;
     color: #fff;
     text-decoration: none;
@@ -126,6 +131,7 @@
     font-family: 'Myriad Pro';
     margin-right: 15px;
 }
+
 .punkt a:hover:after, .punkt a.active:after {
     background-color: #fa090a;
     width: 100%;
@@ -140,21 +146,25 @@
     margin-top: 10px;
     transition: 0.3s;
 }
-    .menu_icon a{
+
+.menu_icon a {
     text-align: right;
     margin-left: 16px;
-} 
-.fab{
+}
+
+.fab {
     width: 30px;
     height: 30px;
     color: #fa090a;
 }
-.footer_top{
+
+.footer_top {
     padding-top: 77px;
     background-color: #010006;
     margin: auto;
 }
-.footer_top h2{
+
+.footer_top h2 {
     font-size: 15px;
     color: #fff;
     text-align: center;
@@ -162,12 +172,14 @@
     line-height: 27px;
     font-family: 'Myriad Pro';
 }
-.form_style{
+
+.form_style {
     margin: auto;
     text-align: center;
     padding-bottom: 49px;
 }
-.footer_form{
+
+.footer_form {
     width: 348px;
     height: 43px;
     background-color: #fff;
@@ -177,7 +189,8 @@
     text-transform: uppercase;
     font-family: 'Myriad Pro';
 }
-.footer_button{
+
+.footer_button {
     width: 309px;
     height: 51px;
     background-color: #ff0000;
@@ -187,42 +200,49 @@
     margin-left: 33px;
     font-family: 'Myriad Pro';
 }
-.footer_bottom{
+
+.footer_bottom {
     display: flex;
     justify-content: space-between;
     background-color: #252525;
     margin: auto;
-    padding: 50px 27px; 
-    border-top:  solid 2px #464647;
+    padding: 50px 27px;
+    border-top: solid 2px #464647;
 }
-.footer_logo{
+
+.footer_logo {
     max-width: 243px;
     text-align: center;
 }
-.network{
+
+.network {
     display: inline-block;
     display: flex;
     justify-content: space-between;
     padding-top: 44px;
 }
-.footer_menu{
+
+.footer_menu {
     display: flex;
     justify-content: space-between;
-    padding:0px 50px;
+    padding: 0px 50px;
 }
-.footer_menu ul{
+
+.footer_menu ul {
     list-style-type: none;
     margin-left: 94px;
 }
-.footer_menu ul li{
+
+.footer_menu ul li {
     font-size: 11px;
     color: #fff;
     text-transform: uppercase;
     line-height: 35px;
     font-family: 'Myriad Pro';
 }
-.footer_end{
-    border-top:  solid 2px #464647;
+
+.footer_end {
+    border-top: solid 2px #464647;
     background-color: #010006;
     height: 63px;
 }
