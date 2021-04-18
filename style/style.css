@@ -160,6 +160,7 @@
     text-align: center;
     margin-bottom: 29px;
     line-height: 27px;
+    font-family: 'Myriad Pro';
 }
 .form_style{
     margin: auto;
@@ -174,6 +175,7 @@
     color: #959595;
     padding-left: 42px;
     text-transform: uppercase;
+    font-family: 'Myriad Pro';
 }
 .footer_button{
     width: 309px;
@@ -183,6 +185,7 @@
     text-transform: uppercase;
     border: none;
     margin-left: 33px;
+    font-family: 'Myriad Pro';
 }
 .footer_bottom{
     display: flex;
@@ -205,6 +208,7 @@
 .footer_menu{
     display: flex;
     justify-content: space-between;
+    padding:0px 50px;
 }
 .footer_menu ul{
     list-style-type: none;
@@ -215,4 +219,10 @@
     color: #fff;
     text-transform: uppercase;
     line-height: 35px;
+    font-family: 'Myriad Pro';
+}
+.footer_end{
+    border-top:  solid 2px #464647;
+    background-color: #010006;
+    height: 63px;
 }
