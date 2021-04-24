@@ -1,0 +1,106 @@
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 992px){
+    .container {
+        background-color: rgba(0, 0, 0, 0.65);
+        margin: auto;
+        max-width: 100%;
+        position: relative;
+    }
+    .header_top {
+        display: block;
+    }
+    .search {
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    .online_store {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .log_in {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .sign_up {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding: 0px;
+    }
+    .header_bottom{
+        display: block;
+        max-width: 414px;
+    }
+    .ul{
+        display: block;
+        text-align: center;
+    }
+    .menu_icon{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        max-width: 270px;
+        margin-top: 30px;
+    }
+    .menu_icon a{
+        margin: 0px;
+    }
+    .footer_bottom{
+        display: block;
+    }
+    .network{
+        display: block;
+    }
+    .footer_menu{
+        display: block;
+    }
+    .footer_form{
+        max-width: 270px;
+        margin: auto;
+    }
+    .footer_button{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .footer_logo{
+        margin: auto;
+    }
+    .network{
+        display: inline;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .page_1{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+
+    .page_2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .page_2:after{
+        display: block;
+        content: "";
+        background-color: silver;
+        height: 2px;
+        
+    }
+    .footer_menu ul{
+        margin: auto;
+    }
+}

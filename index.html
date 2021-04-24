@@ -4,8 +4,11 @@
 <head>
     <title></title>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 
 <body>
@@ -15,8 +18,9 @@
                 <a href="#">
                     <img src="img/7.png" alt="logo">
                 </a>
-                <form action="">
-                    <input class="search" name="search" type="search" placeholder="Search">
+                <form class="search" action="" method="POST">
+                    <input name="search" type="search" placeholder="Search">
+                    <button><i class="fas fa-search"></i></button>
                 </form>
                 <a class="online_store" href="#"><i class="fas fa-cart-arrow-down"></i>ONLINE STORE</a>
                 <a class="log_in" href="#"><i class="far fa-user"></i>LOG IN</a>
@@ -24,41 +28,38 @@
             </div>
             <div class="header_bottom">
                 <div class="menu">
-                    <ul>
+                    <ul class="ul">
                         <li class="punkt">
                             <a href="#">WORKOUTS</a>
                         </li>
-                    </ul>
-                    <ul>
+                    
                         <li class="punkt">
                             <a href="#">NUTRITIONE</a>
                         </li>
-                    </ul>
-                    <ul>
+                    
+                    
                         <li class="punkt">
                             <a href="#">OUR TRAINERS</a>
                         </li>
-                    </ul>
-                    <ul>
+                   
                         <li class="punkt">
                             <a href="#">COMPETITION PREP</a>
                         </li>
-                    </ul>
-                    <ul>
+                    
+                
                         <li class="punkt">
                             <a href="#">TRAINING PROGRAMS</a>
                         </li>
-                    </ul>
-                    <ul>
+                    
+                    
                         <li class="punkt">
                             <a href="#">SUCCESS STORIES</a>
                         </li>
-                    </ul>
-                    <ul>
+                  
                         <li class="punkt">
                             <a href="#">E-BOOKS</a>
                         </li>
-                    </ul>
+                
                 </div>
                 <div class="menu_icon">
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
@@ -68,6 +69,9 @@
                 </div>
             </div>
     </header>
+    <section class="page">
+        <img src="img/7.jpg" alt="pict">
+    </section>
     <footer>
         <div class="footer_top">
             <h2>Get the latest promos, tips, and news direct from Stan McQuay & Team Physique Inc.<br>
@@ -100,6 +104,7 @@
                 </div>
             </div>
             <div class="footer_menu">
+                <div class="page_1">
                 <ul>
                     <li>VIP MEMBERSHIP</li>
                     <li>WHO WE ARE</li>
@@ -112,6 +117,8 @@
                     <li>TRAINING PROGRAMS</li>
                     <li>SUCCESS STORIES</li>
                 </ul>
+                </div>
+                <div class="page_2">
                 <ul>
                     <li>TRANSFORMATIONS</li>
                     <li>ONLINE STORE</li>
@@ -124,6 +131,7 @@
                     <li>SHIPPING POLICY</li>
                     <li>RETURNS POLICY</li>
                 </ul>
+                </div>
             </div>
         </div>
         <div class="footer_end"></div>
