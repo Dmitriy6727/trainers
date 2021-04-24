@@ -127,6 +127,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-top: 22px;
+    
 }
 
 .punkt {
@@ -148,7 +149,6 @@ footer{
     background-color: #fa090a;
     width: 100%;
 }
-
 .punkt a:after {
     display: block;
     content: "";
@@ -246,6 +246,10 @@ footer{
 .footer_menu ul {
     list-style-type: none;
     margin-left: 94px;
+}
+.page_1, .page_2{
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_menu ul li {
